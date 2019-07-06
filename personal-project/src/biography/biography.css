@@ -1,5 +1,47 @@
 
 
-.container{
-    background-color: aquamarine
+.container-fluid#biography-container-general{
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.row#youngPablo{
+    height: 50%;
+}
+
+.row#oldPablo{
+    height: 50%;
+}
+
+.col#youngPabloLeft{
+    background-image: url('../images/niño.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col#youngPabloRight{
+    background-color:white;
+    text-align: center;
+}
+
+.row#textYoungPabloRight{
+    text-align: center;
+    height: 100%;
+}
+
+.col#oldPabloLeft{
+    background-color: white;
+}
+
+.col#oldPabloRight{
+    background-image: url('../images/viejo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p{
+    font-size: 100%;
+    line-height: 1.5;
+    color: #555;
+    font-family: 'Montserrat',sans-serif;
 }

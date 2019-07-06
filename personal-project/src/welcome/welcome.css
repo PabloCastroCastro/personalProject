@@ -1,0 +1,62 @@
+.container-fluid#welcome-container-general{
+    background-image: url('./../images/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.row#row-text-principal{
+    height: 50%;
+}
+
+.row#row-text-second{
+    height: 50%;
+}
+
+
+.welcome-principal-text{
+    text-align: center;
+    width: 100%;
+    font-size: 5rem;
+    color: white;
+}
+
+.welcome-second-text{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 3rem;
+}
+
+  
+/*Moviles vertical*/
+@media (max-width:480px){
+    .welcome-principal-text{
+        font-size: 2.5rem;
+    }
+    .welcome-second-text{
+        font-size: 1rem;
+    }
+}
+
+/*Moviles horizontal y tablets vertical*/
+@media (max-width:640px) and (min-width:480px){
+    .welcome-principal-text{
+        font-size: 2.5rem;
+    }
+    .welcome-second-text{
+        font-size: 1rem;
+    }
+}
+
+/*Tablets horizontal*/
+@media (max-width: 1024px) and (min-width:640px) {
+    .welcome-principal-text{
+        font-size: 3.5rem;
+    }
+    .welcome-second-text{
+        font-size: 2rem;
+    }
+    
+}
+

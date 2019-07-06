@@ -12,8 +12,13 @@ class Welcome extends React.Component {
 
     render() {
         return (
-            <Container>
-                <p>Aqui ira pagina presentacion</p>
+            <Container fluid = 'true' id='welcome-container-general'>
+                <div className = "row align-items-end" id="row-text-principal">
+                    <h1 className="welcome-principal-text">Hi, I'm Pablo</h1>
+                </div>
+                <div className = "row align-items-start" id="row-text-second">
+                    <h2 className="welcome-second-text">scroll down</h2>
+                </div>
             </Container>
         );
     }

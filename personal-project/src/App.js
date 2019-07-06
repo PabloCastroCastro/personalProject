@@ -3,6 +3,7 @@ import './App.css';
 import Welcome from './welcome/welcome';
 import Biography from './biography/biography';
 import Projects from './projects/projects';
+import Media from './media/media';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Welcome name = "Pablo" />
         <Biography/>
         <Projects/>
+        <Media/>
       </body>
     </div>
   );

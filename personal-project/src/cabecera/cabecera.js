@@ -9,7 +9,7 @@ class Cabecera extends React.Component {
 
     render() {
         return (
-            <Container id="headerContainer">
+            <Container id="header-container-general">
                 <Row>
                     <p>Cabecera: {this.props.headername}</p>
                 </Row>
