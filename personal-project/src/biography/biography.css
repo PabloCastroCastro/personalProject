@@ -1,47 +1,109 @@
-
-
 .container-fluid#biography-container-general{
-    background-color: whitesmoke;
+    background-color:rgb(247, 255, 253);
     height: 100%;
 }
 
-.row#youngPablo{
+.img-fluid{
+    margin-top:1%; 
+    height: 85%;
+    width: 28%;
+}
+
+#youngPabloText{
+    text-align: center;
     height: 50%;
 }
 
-.row#oldPablo{
+.text-center#youngPabloImg{
     height: 50%;
+    width: 100%;
 }
 
-.col#youngPabloLeft{
-    background-image: url('../images/niño.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.col#youngPabloRight{
-    background-color:white;
-    text-align: center;
-}
-
-.row#textYoungPabloRight{
-    text-align: center;
-    height: 100%;
-}
-
-.col#oldPabloLeft{
-    background-color: white;
-}
-
-.col#oldPabloRight{
-    background-image: url('../images/viejo.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 p{
     font-size: 100%;
     line-height: 1.5;
-    color: #555;
+    color: rgb(54, 54, 54);
     font-family: 'Montserrat',sans-serif;
+}
+
+/*Moviles vertical*/
+@media (max-width:480px){
+
+    .img-fluid{
+        margin-top:1%; 
+        height: 90%;
+        width: 50%;
+    }
+
+    .text-center#youngPabloImg{
+        height: 25%;
+        width: 100%;
+    }
+    
+    p{
+        font-size: 90%;
+        line-height: 1.5;
+        color: rgb(54, 54, 54);
+        font-family: 'Montserrat',sans-serif;
+    }
+
+}
+
+/*Moviles horizontal y tablets vertical*/
+@media (max-width:640px) and (min-width:480px){
+
+    .img-fluid{
+        margin-top:1%; 
+        height: 90%;
+        width: 20%;
+    }
+
+    .text-center#youngPabloImg{
+        height: 25%;
+        width: 100%;
+    }
+    
+    p{
+        font-size: 70%;
+        line-height: 1.5;
+        color: rgb(54, 54, 54);
+        font-family: 'Montserrat',sans-serif;
+    }
+
+}
+
+/*Moviles horizontal y tablets vertical*/
+@media (max-width:1400px) and (min-width:1000px){
+
+    .img-fluid{
+        margin-top:1%; 
+        height: 90%;
+        width: 30%;
+    }
+
+    .text-center#youngPabloImg{
+        height: 30%;
+        width: 100%;
+    }
+    
+    #youngPabloText{
+        margin-top:10%; 
+        text-align: center;
+        height: 60%;
+    }
+
+    p{
+        font-size: 150%;
+        line-height: 1.5;
+        color: rgb(54, 54, 54);
+        font-family: 'Montserrat',sans-serif;
+    }
+
+}
+
+/*Tablets horizontal*/
+@media (min-width:640px) {
+    
+    
 }
